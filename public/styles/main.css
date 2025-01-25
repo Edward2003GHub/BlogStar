@@ -1,0 +1,132 @@
+body {
+    background-color: #f5eded;
+    background-image: url("https://transparenttextures.com/patterns/black-thread-light.png");
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    flex-wrap: wrap;
+    background-color: #6482AD;
+}
+
+.modifyForm {
+    width: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.about-con {
+    width: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.about-con > h2 {
+    color: #6482AD;
+}
+
+.post-container {
+    max-width: 1000px;
+}
+
+.flex-con {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 361px){
+    .fcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        background-color: #6482AD;
+    }
+}
+
+.links {
+    text-decoration: none;
+    color: #F5EDED;
+    font-size: small;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.links:hover {
+    background-color: #7FA1C3;
+}
+
+.brand {
+    text-decoration: none;
+    color: #F5EDED;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+
+.create-header {
+    border: 2px solid #6482AD;
+    background-color: #F5EDED;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.create-textarea {
+    width: 100%;
+    border: 2px solid #6482AD;
+    background-color: #F5EDED;
+}
+
+.create-btn {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #6482AD;
+    color: #F5EDED;
+    padding: 5px;
+}
+
+.create-btn:hover {
+    background-color: #7FA1C3;
+}
+
+.post-contents {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.each-post {
+    border-left: 3px solid #6482AD;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.each-post > h2 {
+    color: #6482AD;
+}
+
+.control {
+    text-decoration: none;
+    background-color: #6482AD;
+    color: #F5EDED;
+    padding: 5px;
+    font-size: small;
+    border-radius: 5px;
+}
+
+.control:hover {
+    background-color: #7FA1C3;
+}
+
+.p-foot {
+    color: #F5EDED;
+}
+
+footer {
+    background-color: #7FA1C3;
+}

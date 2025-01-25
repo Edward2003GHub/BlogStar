@@ -1,0 +1,25 @@
+<%- include("partials/header.ejs"); %>
+
+
+<div class="post-container">
+  <div class="post-contents">
+    <% posts.forEach(post=> { %>
+      <div class="each-post">
+        <h2>
+          <%=post.title%>
+        </h2>
+        <strong><%= post.date %></strong>
+        <p>
+          <%=post.content%>
+        </p>
+        <small>By: <%= post.author %></small>
+        <br>
+        <br>
+        <a href="/edit/<%= post.id %>" class="control">Edit</a>
+        <a href="/api/posts/delete/<%= post.id %>" class="control">Delete</a>
+      </div>
+    <% }); %>
+  </div>
+</div>
+
+<%- include("partials/footer.ejs"); %>
